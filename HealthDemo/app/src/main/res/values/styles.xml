@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--圆形图片-->
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <!--HeaderView-->
+    <declare-styleable name="HeaderView">
+        <attr name="headerViewLeftIcon" format="reference" />
+        <attr name="headerViewLeftText" format="string" />
+        <attr name="headerViewLeftTextSize" format="dimension" />
+        <attr name="headerViewLeftTextColor" format="color" />
+        <attr name="headerViewRightIcon" format="reference" />
+        <attr name="headerViewRightIcon2" format="reference" />
+        <attr name="headerViewRightText" format="string" />
+        <attr name="headerViewRightTextSize" format="dimension" />
+        <attr name="headerViewRightTextColor" format="color" />
+        <attr name="headerViewMidIcon" format="reference" />
+        <attr name="headerViewMidText" format="string" />
+        <attr name="headerViewMidTextSize" format="dimension" />
+        <attr name="headerViewMidTextColor" format="color" />
+        <attr name="headerViewMidBottomText" format="string" />
+        <attr name="headerViewMidBottomTextSize" format="dimension" />
+        <attr name="headerViewMidBottomTextColor" format="color" />
+    </declare-styleable>
+
+    <!--TabView-->
+    <declare-styleable name="TabViewAttribute">
+        <attr name="tabNormalIcon" format="reference" />
+        <attr name="tabSelectedIcon" format="reference" />
+        <attr name="tabText" format="string" />
+        <attr name="tabTextSize" format="dimension" />
+        <attr name="tabTextNormalColor" format="color|reference" />
+        <attr name="tabTextSelectedColor" format="color|reference" />
+        <attr name="tabNormalBgColor" format="reference" />
+        <attr name="tabSelectedBgColor" format="reference" />
+    </declare-styleable>
+
+    <!--progressBar-->
+    <declare-styleable name="DotProgressBar">
+        <attr name="progressMax" format="integer" />
+        <!--完成进度点的颜色-->
+        <attr name="dotColor" format="color" />
+        <!--未完成进度点的颜色-->
+        <attr name="dotBgColor" format="color" />
+        <!--显示的百分比-->
+        <attr name="progressTextSize" format="dimension" />
+        <attr name="progressTextColor" format="color" />
+        <!--百分比使用系统字体，默认为false(使用外部导入字体assets/fonts/HelveticaNeueLTPro.ttf)-->
+        <attr name="isFontSystem" format="boolean" />
+        <!--百分比瘦身大小-->
+        <attr name="thinPadding" format="integer" />
+        <!--描述文本-->
+        <attr name="describeText" format="string" />
+        <attr name="describeTextSize" format="dimension" />
+        <attr name="describeTextColor" format="color" />
+        <!--图片按钮-->
+        <attr name="btnImage" format="reference" />
+        <attr name="btnPressedImage" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PullToZoomView">
+        <attr name="headerView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="zoomView" format="reference" />
+        <attr name="isHeaderParallax" format="boolean" />
+    </declare-styleable>
+</resources>

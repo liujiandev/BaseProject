@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_red_color">#FF0000</color>
+    <color name="text_white_color">#FFFFFF</color>
+    <color name="text_black_color">#000000</color>
+    <color name="text_gray_color">#666666</color>
+    <color name="text_deep_gray_color">#333333</color>
+    <color name="main_activity_gray_color">#808080</color>
+    <color name="dot_color">#48BAB0</color>
+    <color name="dot_bg_color">#B7DCD2</color>
+    <color name="bottom_item_color">#f0f0f4</color>
+    <color name="home_text_color">#8a8a8a</color>
+</resources>
